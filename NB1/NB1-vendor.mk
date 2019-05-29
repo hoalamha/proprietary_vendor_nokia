@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/nokia/NB1/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/nokia/NB1/proprietary/vendor/bin/hw/android.hardware.gnss@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@1.0-service-qti \
-    vendor/nokia/NB1/proprietary/vendor/bin/hw/vendor.nokia.hardware.sidecar@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.nokia.hardware.sidecar@1.0-service \
     vendor/nokia/NB1/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/nokia/NB1/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
     vendor/nokia/NB1/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
@@ -166,9 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/etc/hbtp/qtc800s_dsp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc800s_dsp.bin \
     vendor/nokia/NB1/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/nokia/NB1/proprietary/vendor/etc/init/android.hardware.gnss@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@1.0-service-qti.rc \
-    vendor/nokia/NB1/proprietary/vendor/etc/init/vendor.nokia.hardware.sidecar@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nokia.hardware.sidecar@1.0-service.rc \
     vendor/nokia/NB1/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
-    vendor/nokia/NB1/proprietary/vendor/etc/permissions/com.nokia.feature.nokia_EXPERIENCE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nokia.feature.nokia_EXPERIENCE.xml \
     vendor/nokia/NB1/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/nokia/NB1/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/nokia/NB1/proprietary/vendor/etc/permissions/radioconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/radioconfig.xml \
@@ -192,7 +189,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/firmware/crnv21.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crnv21.bin \
     vendor/nokia/NB1/proprietary/vendor/framework/qcrilhook.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qcrilhook.jar \
     vendor/nokia/NB1/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
-    vendor/nokia/NB1/proprietary/vendor/framework/vendor.nokia.hardware.sidecar-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.nokia.hardware.sidecar-V1.0-java.jar \
     vendor/nokia/NB1/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/nokia/NB1/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.api@1.0.so \
     vendor/nokia/NB1/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.constants@1.0.so \
@@ -210,7 +206,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8998.so \
     vendor/nokia/NB1/proprietary/vendor/lib/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8998.so \
     vendor/nokia/NB1/proprietary/vendor/lib/hw/sound_trigger.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8998.so \
-    vendor/nokia/NB1/proprietary/vendor/lib/hw/vendor.nokia.hardware.sidecar@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.nokia.hardware.sidecar@1.0-impl.so \
     vendor/nokia/NB1/proprietary/vendor/lib/hw/vulkan.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8998.so \
     vendor/nokia/NB1/proprietary/vendor/lib/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscmservice.so \
     vendor/nokia/NB1/proprietary/vendor/lib/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsdpl.so \
@@ -551,7 +546,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/nokia/NB1/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/nokia/NB1/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
-    vendor/nokia/NB1/proprietary/vendor/lib/vendor.nokia.hardware.sidecar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nokia.hardware.sidecar@1.0.so \
     vendor/nokia/NB1/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/nokia/NB1/proprietary/vendor/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so \
     vendor/nokia/NB1/proprietary/vendor/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so \
@@ -587,7 +581,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8998.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8998.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msm8998.so \
-    vendor/nokia/NB1/proprietary/vendor/lib64/hw/vendor.nokia.hardware.sidecar@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.nokia.hardware.sidecar@1.0-impl.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/hw/vulkan.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8998.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscmservice.so \
@@ -757,7 +750,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
-    vendor/nokia/NB1/proprietary/vendor/lib64/vendor.nokia.hardware.sidecar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nokia.hardware.sidecar@1.0.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so \
