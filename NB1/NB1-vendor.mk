@@ -117,14 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/nokia/NB1/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
     vendor/nokia/NB1/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
-    vendor/nokia/NB1/proprietary/vendor/etc/acdbdata/NB1/NB1_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/NB1/NB1_Bluetooth_cal.acdb \
-    vendor/nokia/NB1/proprietary/vendor/etc/acdbdata/NB1/NB1_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/NB1/NB1_General_cal.acdb \
-    vendor/nokia/NB1/proprietary/vendor/etc/acdbdata/NB1/NB1_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/NB1/NB1_Global_cal.acdb \
-    vendor/nokia/NB1/proprietary/vendor/etc/acdbdata/NB1/NB1_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/NB1/NB1_Handset_cal.acdb \
-    vendor/nokia/NB1/proprietary/vendor/etc/acdbdata/NB1/NB1_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/NB1/NB1_Hdmi_cal.acdb \
-    vendor/nokia/NB1/proprietary/vendor/etc/acdbdata/NB1/NB1_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/NB1/NB1_Headset_cal.acdb \
-    vendor/nokia/NB1/proprietary/vendor/etc/acdbdata/NB1/NB1_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/NB1/NB1_Speaker_cal.acdb \
-    vendor/nokia/NB1/proprietary/vendor/etc/acdbdata/NB1/NB1_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/NB1/NB1_workspaceFile.qwsp \
     vendor/nokia/NB1/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/nokia/NB1/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/nokia/NB1/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
