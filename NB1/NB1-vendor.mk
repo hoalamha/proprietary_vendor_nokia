@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/nokia/NB1/proprietary/vendor/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
     vendor/nokia/NB1/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
-    vendor/nokia/NB1/proprietary/vendor/etc/permissions/vendor-nokia-hardware-sidecar.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-nokia-hardware-sidecar.xml \
     vendor/nokia/NB1/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/nokia/NB1/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/nokia/NB1/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
@@ -94,11 +93,8 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/bin/hbtp_cmd.sh:$(TARGET_COPY_OUT_VENDOR)/bin/hbtp_cmd.sh \
     vendor/nokia/NB1/proprietary/vendor/bin/hbtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hbtp_daemon \
     vendor/nokia/NB1/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
-    vendor/nokia/NB1/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.NB1:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.NB1 \
     vendor/nokia/NB1/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/nokia/NB1/proprietary/vendor/bin/hw/android.hardware.gnss@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@1.0-service-qti \
-    vendor/nokia/NB1/proprietary/vendor/bin/hw/android.hardware.health@2.0-service.NB1:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service.NB1 \
-    vendor/nokia/NB1/proprietary/vendor/bin/hw/android.hardware.vibrator@1.2-service.NB1:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator@1.2-service.NB1 \
     vendor/nokia/NB1/proprietary/vendor/bin/hw/vendor.nokia.hardware.sidecar@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.nokia.hardware.sidecar@1.0-service \
     vendor/nokia/NB1/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/nokia/NB1/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
@@ -168,11 +164,8 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/etc/hbtp/hbtpcfg_rohm.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_rohm.dat \
     vendor/nokia/NB1/proprietary/vendor/etc/hbtp/loader.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/loader.cfg \
     vendor/nokia/NB1/proprietary/vendor/etc/hbtp/qtc800s_dsp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc800s_dsp.bin \
-    vendor/nokia/NB1/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.NB1.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.NB1.rc \
     vendor/nokia/NB1/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/nokia/NB1/proprietary/vendor/etc/init/android.hardware.gnss@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@1.0-service-qti.rc \
-    vendor/nokia/NB1/proprietary/vendor/etc/init/android.hardware.health@2.0-service.NB1.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.0-service.NB1.rc \
-    vendor/nokia/NB1/proprietary/vendor/etc/init/android.hardware.vibrator@1.2-service.NB1.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator@1.2-service.NB1.rc \
     vendor/nokia/NB1/proprietary/vendor/etc/init/vendor.nokia.hardware.sidecar@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nokia.hardware.sidecar@1.0-service.rc \
     vendor/nokia/NB1/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/nokia/NB1/proprietary/vendor/etc/permissions/com.nokia.feature.nokia_EXPERIENCE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nokia.feature.nokia_EXPERIENCE.xml \
@@ -553,7 +546,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_svc_skel.so \
     vendor/nokia/NB1/proprietary/vendor/lib/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensor_calibrate.so \
     vendor/nokia/NB1/proprietary/vendor/lib/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.hal.tof.so \
-    vendor/nokia/NB1/proprietary/vendor/lib/sensors.NB1.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.NB1.so \
     vendor/nokia/NB1/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
     vendor/nokia/NB1/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/nokia/NB1/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
@@ -760,7 +752,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensor_calibrate.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.hal.tof.so \
-    vendor/nokia/NB1/proprietary/vendor/lib64/sensors.NB1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.NB1.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
     vendor/nokia/NB1/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
